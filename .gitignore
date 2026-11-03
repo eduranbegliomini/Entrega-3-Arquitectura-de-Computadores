@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+# Corridas de LibreLane (varios GB): se regeneran con scripts/run.sh.
+# Los resultados que usa el informe se copian a results/ y evidence/.
+librelane/*/runs/
+# Salidas de simulación
+tb/out/
+*.vcd
+# Layout anotado en GDS (se regenera con scripts/annotate_layout.py)
+results/layout/*.gds

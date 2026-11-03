@@ -1,0 +1,78 @@
+%Warning-PROCASSINIT: /home/conib/pochoco_asic_project/p2_reference/rtl_step2/pochoco_soc.v:32:24: Procedural assignment to declaration with initial value: 'por_cnt'
+                                                                                                 : ... note: In instance 'game_top.u_pochoco'
+                                                                                                 : ... Location of variable initialization
+   32 |   reg [19:0] por_cnt = 20'b0;
+      |                        ^~~~~
+                      /home/conib/pochoco_asic_project/p2_reference/rtl_step2/pochoco_soc.v:35:31: ... Location of variable process write
+                                                                                                 : ... Perhaps should initialize instead using a reset in this process
+   35 |     if (por_cnt != 20'hFFFFF) por_cnt <= por_cnt + 20'd1;
+      |                               ^~~~~~~
+                      ... For warning description see https://verilator.org/warn/PROCASSINIT?v=5.044
+                      ... Use "/* verilator lint_off PROCASSINIT */" and lint_on around source to disable this message.
+%Warning-UNUSEDSIGNAL: /home/conib/pochoco_asic_project/p2_reference/rtl_step2/espino_core.v:47:15: Signal is not used: 'illegal_insn'
+                                                                                                  : ... note: In instance 'game_top.u_pochoco.u_core'
+   47 |   wire        illegal_insn;
+      |               ^~~~~~~~~~~~
+                       ... For warning description see https://verilator.org/warn/UNUSEDSIGNAL?v=5.044
+                       ... Use "/* verilator lint_off UNUSEDSIGNAL */" and lint_on around source to disable this message.
+%Warning-UNUSEDSIGNAL: /home/conib/pochoco_asic_project/p2_reference/rtl_step2/pochoco_periph.v:18:22: Bits of signal are not used: 'addr_i'[1:0]
+                                                                                                     : ... note: In instance 'game_top.u_pochoco.u_periph'
+   18 |   input  wire [7:0]  addr_i,
+      |                      ^~~~~~
+%Warning-UNUSEDSIGNAL: /home/conib/pochoco_asic_project/p2_reference/rtl_step2/pochoco_periph.v:19:22: Bits of signal are not used: 'wdata_i'[31:8]
+                                                                                                     : ... note: In instance 'game_top.u_pochoco.u_periph'
+   19 |   input  wire [31:0] wdata_i,
+      |                      ^~~~~~~
+%Warning-UNUSEDSIGNAL: /home/conib/pochoco_asic_project/p2_reference/rtl_step2/pochoco_spi_slave.v:20:22: Bits of signal are not used: 'addr_i'[1:0]
+                                                                                                        : ... note: In instance 'game_top.u_pochoco.u_spi'
+   20 |   input  wire [7:0]  addr_i,
+      |                      ^~~~~~
+%Warning-UNUSEDSIGNAL: /home/conib/pochoco_asic_project/p2_reference/rtl_step2/pochoco_spi_slave.v:21:22: Bits of signal are not used: 'wdata_i'[31:8]
+                                                                                                        : ... note: In instance 'game_top.u_pochoco.u_spi'
+   21 |   input  wire [31:0] wdata_i,
+      |                      ^~~~~~~
+%Warning-UNUSEDSIGNAL: /home/conib/pochoco_asic_project/p2_reference/rtl_step2/pochoco_spi_slave.v:40:24: Bits of signal are not used: 'mosi_sync'[2]
+                                                                                                        : ... note: In instance 'game_top.u_pochoco.u_spi'
+   40 |   reg [2:0] sclk_sync, mosi_sync, cs_sync;
+      |                        ^~~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/conib/pochoco_asic_project/p2_reference/rtl_step2/pochoco_spi_slave.v:60:13: Bits of signal are not used: 'rx_shift'[7]
+                                                                                                        : ... note: In instance 'game_top.u_pochoco.u_spi'
+   60 |   reg [7:0] rx_shift;
+      |             ^~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/conib/pochoco_asic_project/p2_reference/rtl_step2/pochoco_ram.v:19:22: Bits of signal are not used: 'a_addr_i'[31:11,1:0]
+                                                                                                  : ... note: In instance 'game_top.u_pochoco.u_ram'
+   19 |   input  wire [31:0] a_addr_i,
+      |                      ^~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/conib/pochoco_asic_project/p2_reference/rtl_step2/pochoco_ram.v:26:22: Bits of signal are not used: 'b_addr_i'[31:11,1:0]
+                                                                                                  : ... note: In instance 'game_top.u_pochoco.u_ram'
+   26 |   input  wire [31:0] b_addr_i,
+      |                      ^~~~~~~~
+%Warning-UNUSEDPARAM: /home/conib/pochoco_asic_project/p2_reference/rtl_step2/espino_load_store_unit.v:33:54: Parameter is not used: 'LSU_WORD'
+                                                                                                            : ... note: In instance 'game_top.u_pochoco.u_core.u_lsu'
+   33 |   localparam [1:0] LSU_BYTE = 2'd0, LSU_HALF = 2'd1, LSU_WORD = 2'd2;
+      |                                                      ^~~~~~~~
+                      ... For warning description see https://verilator.org/warn/UNUSEDPARAM?v=5.044
+                      ... Use "/* verilator lint_off UNUSEDPARAM */" and lint_on around source to disable this message.
+%Warning-UNUSEDPARAM: /home/conib/pochoco_asic_project/p2_reference/rtl_step2/espino_alu.v:24:20: Parameter is not used: 'ALU_SLL'
+                                                                                                : ... note: In instance 'game_top.u_pochoco.u_core.u_id.u_alu'
+   24 |                    ALU_SLL  = 4'd5,
+      |                    ^~~~~~~
+%Warning-UNUSEDPARAM: /home/conib/pochoco_asic_project/p2_reference/rtl_step2/espino_alu.v:25:20: Parameter is not used: 'ALU_SRL'
+                                                                                                : ... note: In instance 'game_top.u_pochoco.u_core.u_id.u_alu'
+   25 |                    ALU_SRL  = 4'd6,
+      |                    ^~~~~~~
+%Warning-UNUSEDPARAM: /home/conib/pochoco_asic_project/p2_reference/rtl_step2/espino_alu.v:26:20: Parameter is not used: 'ALU_SRA'
+                                                                                                : ... note: In instance 'game_top.u_pochoco.u_core.u_id.u_alu'
+   26 |                    ALU_SRA  = 4'd7,
+      |                    ^~~~~~~
+%Warning-UNUSEDSIGNAL: /home/conib/pochoco_asic_project/p2_reference/rtl_step2/espino_alu.v:41:14: Signal is not used: 'shamt'
+                                                                                                 : ... note: In instance 'game_top.u_pochoco.u_core.u_id.u_alu'
+   41 |   wire [4:0] shamt;
+      |              ^~~~~
+%Warning-UNUSEDSIGNAL: /home/conib/pochoco_asic_project/p2_reference/rtl_step2/espino_decoder.v:87:14: Bits of signal are not used: 'funct7'[6,4:0]
+                                                                                                     : ... note: In instance 'game_top.u_pochoco.u_core.u_id.u_decoder'
+   87 |   wire [6:0] funct7;
+      |              ^~~~~~
+- V e r i l a t i o n   R e p o r t: Verilator 5.044 2026-01-01 rev v5.040
+- Verilator: Built from 2.165 MB sources in 312 modules, into 0.191 MB in 3 C++ files needing 0.000 MB
+- Verilator: Walltime 0.085 s (elab=0.010, cvt=0.041, bld=0.000); cpu 0.085 s on 1 threads; alloced 26.859 MB

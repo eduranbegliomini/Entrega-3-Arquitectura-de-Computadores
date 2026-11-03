@@ -1,0 +1,52 @@
+163. Printing statistics.
+
+=== game_top ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+    69222        - wires
+    69228        - wire bits
+    17268        - public wires
+    17274        - public wire bits
+       21        - ports
+       27        - port bits
+    69220 2.33E+06 cells
+      218 3.83E+03   gf180mcu_fd_sc_mcu7t5v0__and2_1
+       51 1.12E+03   gf180mcu_fd_sc_mcu7t5v0__and3_1
+       12  289.766   gf180mcu_fd_sc_mcu7t5v0__and4_1
+      156 3.42E+03   gf180mcu_fd_sc_mcu7t5v0__aoi211_1
+     3366 5.91E+04   gf180mcu_fd_sc_mcu7t5v0__aoi21_1
+      350  8451.52   gf180mcu_fd_sc_mcu7t5v0__aoi221_1
+       87 2.67E+03   gf180mcu_fd_sc_mcu7t5v0__aoi222_1
+     9303 1.84E+05   gf180mcu_fd_sc_mcu7t5v0__aoi22_1
+     1148 1.01E+04   gf180mcu_fd_sc_mcu7t5v0__clkinv_1
+    16468 1.05E+06   gf180mcu_fd_sc_mcu7t5v0__dffq_1
+      778 5.81E+04   gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+        3  237.082   gf180mcu_fd_sc_mcu7t5v0__dffsnq_1
+    16705  5.5E+05   gf180mcu_fd_sc_mcu7t5v0__mux2_2
+       19 1.33E+03   gf180mcu_fd_sc_mcu7t5v0__mux4_1
+     4145 4.55E+04   gf180mcu_fd_sc_mcu7t5v0__nand2_1
+     1600 2.46E+04   gf180mcu_fd_sc_mcu7t5v0__nand3_1
+       71  1.4E+03   gf180mcu_fd_sc_mcu7t5v0__nand4_1
+     1551 2.04E+04   gf180mcu_fd_sc_mcu7t5v0__nor2_1
+      198 3.48E+03   gf180mcu_fd_sc_mcu7t5v0__nor3_1
+      717 1.57E+04   gf180mcu_fd_sc_mcu7t5v0__nor4_1
+      376 8.25E+03   gf180mcu_fd_sc_mcu7t5v0__oai211_1
+     4624 8.12E+04   gf180mcu_fd_sc_mcu7t5v0__oai21_1
+     1419 3.74E+04   gf180mcu_fd_sc_mcu7t5v0__oai221_1
+     2795  9.2E+04   gf180mcu_fd_sc_mcu7t5v0__oai222_1
+     2634 5.78E+04   gf180mcu_fd_sc_mcu7t5v0__oai22_1
+       51 1.23E+03   gf180mcu_fd_sc_mcu7t5v0__oai31_1
+       48 1.26E+03   gf180mcu_fd_sc_mcu7t5v0__oai32_1
+      100  1756.16   gf180mcu_fd_sc_mcu7t5v0__or2_1
+       26  570.752   gf180mcu_fd_sc_mcu7t5v0__or3_1
+       29   763.93   gf180mcu_fd_sc_mcu7t5v0__or4_1
+       30  856.128   gf180mcu_fd_sc_mcu7t5v0__xnor2_1
+        1   52.685   gf180mcu_fd_sc_mcu7t5v0__xnor3_1
+      138 3.64E+03   gf180mcu_fd_sc_mcu7t5v0__xor2_1
+        3  151.469   gf180mcu_fd_sc_mcu7t5v0__xor3_1
+
+   Chip area for module '\game_top': 2328951.340800
+     of which used for sequential elements: 1106670.566400 (47.52%)
+

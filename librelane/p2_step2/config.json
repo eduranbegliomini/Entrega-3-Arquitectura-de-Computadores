@@ -1,0 +1,8 @@
+{
+  "//": "Section 3.1 evidence, step 2: Proyecto 2 RTL with only the SB_RAM40_4K register file replaced by flip-flops pushed through LibreLane to collect the warnings/errors it produces.",
+  "DESIGN_NAME": "game_top",
+  "VERILOG_FILES": "dir::../../p2_reference/rtl_step2/*.v",
+  "CLOCK_PORT": "i_Clk",
+  "CLOCK_PERIOD": 100,
+  "FP_CORE_UTIL": 40
+}

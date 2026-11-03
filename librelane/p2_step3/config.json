@@ -1,0 +1,8 @@
+{
+  "//": "Section 3.1 evidence, step 3: step 2 plus game.hex next to the RTL so that $readmemh succeeds and Yosys must implement the 512-word pochoco_ram pushed through LibreLane to collect the warnings/errors it produces.",
+  "DESIGN_NAME": "game_top",
+  "VERILOG_FILES": "dir::../../p2_reference/rtl_step3/*.v",
+  "CLOCK_PORT": "i_Clk",
+  "CLOCK_PERIOD": 100,
+  "FP_CORE_UTIL": 40
+}

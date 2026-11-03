@@ -1,0 +1,16 @@
+%Error-MODMISSING: /home/conib/pochoco_asic_project/p2_reference/rtl/espino_register_file.v:22:3: Cannot find file containing module: 'SB_RAM40_4K'
+   22 |   SB_RAM40_4K #(
+      |   ^~~~~~~~~~~
+                   ... For error description see https://verilator.org/warn/MODMISSING?v=5.044
+                   ... This may be because there's no search path specified with -I<dir>.
+                   ... Looked in:
+                        SB_RAM40_4K
+                        SB_RAM40_4K.v
+                        SB_RAM40_4K.sv
+                        obj_dir/SB_RAM40_4K
+                        obj_dir/SB_RAM40_4K.v
+                        obj_dir/SB_RAM40_4K.sv
+%Error-MODMISSING: /home/conib/pochoco_asic_project/p2_reference/rtl/espino_register_file.v:33:3: Cannot find file containing module: 'SB_RAM40_4K'
+   33 |   SB_RAM40_4K #(
+      |   ^~~~~~~~~~~
+%Error: Exiting due to 2 error(s)
