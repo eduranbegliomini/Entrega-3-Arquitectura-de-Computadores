@@ -1,0 +1,18 @@
+┏━━━━━━━┳━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┓
+┃ P / R ┃ Partial ┃ Required ┃ Net                       ┃ Pin                                       ┃ Layer  ┃
+┡━━━━━━━╇━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━┩
+│ 2.00  │ 801.35  │ 400.00   │ u_soc/u_spi/sclk_sync[0\] │ u_soc/u_spi/_272_/D                       │ Metal2 │
+│ 1.38  │ 553.42  │ 400.00   │ u_soc/u_core/u_rf/_1046_  │ u_soc/u_core/u_rf/fanout207/I             │ Metal3 │
+│ 1.23  │ 491.84  │ 400.00   │ u_soc/data_addr[2\]       │ u_soc/fanout182/I                         │ Metal2 │
+│ 1.21  │ 483.16  │ 400.00   │ u_soc/u_core/u_rf/_1051_  │ u_soc/u_core/u_rf/fanout267/I             │ Metal4 │
+│ 1.10  │ 438.65  │ 400.00   │ u_soc/u_core/u_rf/net253  │ u_soc/u_core/u_rf/fanout251/I             │ Metal2 │
+│ 1.08  │ 432.54  │ 400.00   │ u_soc/u_core/u_rf/net499  │ u_soc/u_core/u_rf/fanout497/I             │ Metal2 │
+│ 1.06  │ 423.37  │ 400.00   │ u_soc/net724              │ u_soc/u_core/u_rf/fanout700/I             │ Metal2 │
+│ 1.04  │ 417.27  │ 400.00   │ u_soc/u_core/u_rf/net413  │ u_soc/u_core/u_rf/fanout412/I             │ Metal2 │
+│ 1.04  │ 415.74  │ 400.00   │ u_soc/u_core/u_rf/_1064_  │ u_soc/u_core/u_rf/fanout190/I             │ Metal2 │
+│ 1.04  │ 414.93  │ 400.00   │ u_soc/u_periph/_000_      │ u_soc/u_periph/u_cycle_counter/fanout30/I │ Metal2 │
+│ 1.01  │ 403.61  │ 400.00   │ u_soc/u_core/rf_wdata[1\] │ u_soc/u_core/u_rf/fanout116/I             │ Metal3 │
+│ 1.01  │ 403.61  │ 400.00   │ u_soc/u_core/rf_wdata[1\] │ u_soc/u_core/u_rf/fanout117/I             │ Metal3 │
+│ 1.01  │ 402.72  │ 400.00   │ u_soc/net779              │ u_soc/fanout729/I                         │ Metal2 │
+│ 1.00  │ 400.19  │ 400.00   │ u_soc/u_core/u_rf/net550  │ u_soc/u_core/u_rf/fanout548/I             │ Metal2 │
+└───────┴─────────┴──────────┴───────────────────────────┴───────────────────────────────────────────┴────────┘

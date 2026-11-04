@@ -8,3 +8,12 @@ tb/out/
 *.vcd
 # Layout anotado en GDS (se regenera con scripts/annotate_layout.py)
 results/layout/*.gds
+# HTML intermedio del informe
+docs/informe.html
+# Salidas de la FPGA (Proyecto 2)
+fpga/*.json
+fpga/*.asc
+fpga/*.bin
+fpga/test_placa/*.json
+fpga/test_placa/*.asc
+fpga/test_placa/*.bin

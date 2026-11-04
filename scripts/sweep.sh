@@ -3,8 +3,9 @@
 #   scripts/sweep.sh period <rom|ff> <T1> <T2> ...   CLOCK_PERIOD sweep at U = 40 %
 #   scripts/sweep.sh util   <rom|ff> <U1> <U2> ...   FP_CORE_UTIL sweep at T = 100 ns
 # Run tags: T<period>_U40 and T100_U<util>. Summary: python3 scripts/collect.py
-# Note: each CLOCK_PERIOD re-optimises the circuit (sizing, buffering,
-# placement), so area and buffering change from point to point.
+# Note: each CLOCK_PERIOD may re-optimise the circuit (sizing, buffering,
+# placement). With SYNTH_STRATEGY = AREA 0 and timing repair only in the
+# default (typical) corner, our netlists turned out identical (report, 4.1).
 set -euo pipefail
 cd "$(dirname "$0")/.."
 kind=$1; design=$2; shift 2
